@@ -1,4 +1,4 @@
-# cloud-pet-project
+# Spring cloud Project
 Complete sample project with spring cloud using cloud config, eureka, zuul, feign, hystrix and turbine
 
 ## A sample ready to use project with all basic configuration for -
@@ -15,7 +15,7 @@ Complete sample project with spring cloud using cloud config, eureka, zuul, feig
   
   To start the project, first start config server, It is set up to be used in native mode, which menas it will search for the properties file specifically in local folder.
   
-  - Either you copy all the properties files from https://github.com/27rahulk/cloud-pet-project/tree/master/pet_profiles_config to the specified folder as shown in the pet-config application.properties path `spring.cloud.config.server.native.search-locations`. It's configured to fetch from window location from Desktop, it can be modified at specific location.
+  - Either you copy all the properties files from pet_profiles_config to the specified folder as shown in the pet-config application.properties path `spring.cloud.config.server.native.search-locations`. It's configured to fetch from window location from Desktop, it can be modified at specific location.
   - Other way is by using a git location as commented out in application.properties file of pet-config
   
   `cd pet-config/`
@@ -109,5 +109,3 @@ Complete sample project with spring cloud using cloud config, eureka, zuul, feig
      GET  /app/cat/food
      GET  /app/dog/sound
      GET  /app/dog/food
- 
- [more info](https://medium.com/@27.rahul.k/build-a-sample-project-with-spring-cloud-using-cloud-config-eureka-zuul-feign-hystrix-and-378b16bcb7c3)
