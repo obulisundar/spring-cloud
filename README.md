@@ -109,3 +109,5 @@ Complete sample project with spring cloud using cloud config, eureka, zuul, feig
      GET  /app/cat/food
      GET  /app/dog/sound
      GET  /app/dog/food
+     
+     Note : Example project taken and modified from https://github.com/27rahulk/cloud-pet-project.
